@@ -1,9 +1,3 @@
-const toDoForm = document.getElementById("todo-form");
-const toDoInput = toDoForm.querySelector("input");
-const toDoList = document.getElementById("todo-list");
-
-const TODOS_KEY = "todos";
-
 let toDos = [];
 
 function saveToDo() {
@@ -24,7 +18,7 @@ function paintToDo(newToDo) {
 
     li.id = newToDo.id;
     span.innerText = newToDo.text;
-    button.innerText = "❌";
+    button.innerText = `X`;
 
     button.addEventListener("click", deleteToDo);
 

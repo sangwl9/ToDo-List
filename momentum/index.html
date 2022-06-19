@@ -5,32 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>To Do Listr</title>
+    <title>To Do List - Login</title>
 </head>
 <body>
-    <form class="hidden" id="login-form">
-        <input required maxlength="15" type="text" placeholder="What is your name?" />
-        <button>Log In</button>
-    </form>
-    <h2 id="clock">00:00:00</h2>
-    <h1 class="hidden" id="greeting"></h1>
-    <form id="todo-form">
-        <input type="text" placeholder="Input a To do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-        <span></span>
-        <span></span>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span id="clock">00:00:00</span>
+        </div>
+        <div class="status-bar__column" id="weather">
+            <img src="">
+            <span></span>
+        </div>
+        <div class="status-bar__column" id="city">
+            <span></span>
+        </div>
     </div>
-    <div id="weather">
-        <span></span>
-        <span></span>
+    <div class="main-screen">
+        <h1 class="login__title hidden">LOGIN NOW</h1>
+        <form class="hidden input-form" id="login-form">
+            <input required maxlength="15" type="text" placeholder="What is your name?" />
+            <button><i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+        </form>
+        <h1 class="hidden" id="greeting"></h1>
+        <div class="hidden" id="quote">
+            <span></span>
+            <span></span>
+        </div>
+        <form class="hidden input-form" id="todo-form">
+            <input type="text" placeholder="Input a To do and Press Enter" required />
+        </form>
     </div>
+    <ul class="hidden" id="todo-list"></ul>
+
+    <div class="hidden sign-out">Sign Out</div>
+
+    <div id="splash-screen">
+    </div>
+
+    <script src="js/const-variables.js"></script>
     <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
-    <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/sign-out.js"></script>
+    <script src="https://kit.fontawesome.com/ce7ca4a42d.js" crossorigin="anonymous"></script>
 </body>
 </html>
