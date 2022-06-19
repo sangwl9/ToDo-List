@@ -8,6 +8,8 @@
     <title>To Do List - Login</title>
 </head>
 <body>
+    <!-- Staus Bar -->
+    <!-- Shows today date, clock, and weather -->
     <div class="status-bar">
         <div class="status-bar__column">
             <span id="date"></span>
@@ -23,6 +25,9 @@
             <span id="city"></span>
         </div>
     </div>
+    <!-- Main Screen -->
+    <!-- Shows heading and form to login -->
+    <!-- Shows quate, heading, and form to add todos-->
     <div class="main-screen">
         <h1 class="login__title hidden">LOGIN NOW</h1>
         <form class="hidden input-form" id="login-form">
@@ -38,10 +43,15 @@
             <input type="text" placeholder="Input a To do and Press Enter" required />
         </form>
     </div>
+    <!-- Todo List -->
+    <!-- Shows added todos -->
     <ul class="hidden" id="todo-list"></ul>
-
+    <!-- Sign Out -->
+    <!-- Shows sign out button after login -->
     <div class="hidden sign-out">Sign Out</div>
-
+    <!-- Splash Screen (Loading Screen) -->
+    <!-- Our background are downloaded from goole drive -->
+    <!-- So needs waitting time -->
     <div id="splash-screen">
         <img src="https://cdn-icons-png.flaticon.com/512/3338/3338644.png">
         <div>
@@ -53,7 +63,7 @@
             </div>
         </div>
     </div>
-
+    <!-- Java Scripts -->
     <script src="js/const-variables.js"></script>
     <script src="js/greeting.js"></script>
     <script src="js/todo.js"></script>
