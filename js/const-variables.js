@@ -32,7 +32,7 @@ const images = [
     "https://drive.google.com/uc?export=view&id=1fOffqI4g4JZFPZfmxMsLzo4g9LOvHgZB", // "6.jpg",
     "https://drive.google.com/uc?export=view&id=1Vq1WpQm5KpCrZuLVmvp5XRKwn54wOinN", // "7.jpg",
     "https://drive.google.com/uc?export=view&id=1pzMBNqgl5GOubfDeAsN24kQIHajB9XEm", // "8.jpg",
-    "https://drive.google.com/uc?export=view&id=1nllaQhMgYbVKQjETgw41stI3Xm9HA4r8", // "9.jpg"
+    "https://drive.google.com/uc?export=view&id=1nllaQhMgYbVKQjETgw41stI3Xm9HA4r8" // "9.jpg"
 ];
 
 const WEEKDAY = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];

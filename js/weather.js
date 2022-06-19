@@ -8,7 +8,7 @@ function onGeoOk(position) {
         const city = document.querySelector("#city");
         city.innerText = data.name;
         weather.innerText = `${data.weather[0].main} / ${data.main.temp} ℃`;
-        weatherIcon.src = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+        weatherIcon.src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     });
 }
 
