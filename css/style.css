@@ -208,7 +208,7 @@ ul {
     overflow: auto;
     position: fixed;
     top: 55vh;
-    max-width: 70vh;
+    max-width: 70%;
     max-height: 35vh;
 }
 
