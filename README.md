@@ -33,6 +33,19 @@ https://sangwl9.github.io/ToDo-List/
   :-------------------------:
   ![date-clock-weather](./img/date-clock-weather.PNG)
 
+- Loading Screen
+
+  Because the image of the background is large, it is in Google Drive, and the web browser downloads the image from Google Drive every time. So, I added a loading screen to wait because the web browser needs time to fetch the background. I implemented the loading screen by adding a function to the onload. The onload executes the function after all elements of the body are ready. Here's the code: (js/background.js)
+
+  ```javascript
+  body.onload = removeSplashScreen;
+  ```
+
+  By giving onload removeSplashScreen (a function to add an animation effect that the loading screen disappears), the loading screen disappears after the body is loaded.
+  Loading Screen|
+  :-------------------------:
+  ![loading-screen](./img/loading-screen.gif)
+
 ## Future Improvements
 
 - Sign Up
