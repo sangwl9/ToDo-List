@@ -8,6 +8,7 @@ const toDoForm = document.getElementById("todo-form");
 const quoteDiv = document.getElementById("quote");
 const signOut = document.querySelector(".sign-out");
 const clock = document.querySelector("#clock");
+const dateSpan = document.querySelector("#date");
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 const toDoInput = toDoForm.querySelector("input");
@@ -31,3 +32,6 @@ const images = [
     "http://drive.google.com/uc?export=view&id=1pzMBNqgl5GOubfDeAsN24kQIHajB9XEm", // "8.jpg",
     "http://drive.google.com/uc?export=view&id=1nllaQhMgYbVKQjETgw41stI3Xm9HA4r8", // "9.jpg"
 ];
+
+const WEEKDAY = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+const MONTH = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];

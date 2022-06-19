@@ -5,7 +5,7 @@ function onGeoOk(position) {
     fetch(url).then(response => response.json()).then(data => {
         const weather = document.querySelector("#weather span");
         const weatherIcon = document.querySelector("#weather img");
-        const city = document.querySelector("#city span");
+        const city = document.querySelector("#city");
         city.innerText = data.name;
         weather.innerText = `${data.weather[0].main} / ${data.main.temp} ℃`;
         weatherIcon.src = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`;

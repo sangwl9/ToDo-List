@@ -37,18 +37,27 @@ body {
     display: flex;
     width: 33%;
     align-items: center;
+    text-align: center;
 }
 
 .status-bar__column:nth-child(2){
     justify-content: center;
 }
 
-.status-bar__column:nth-child(2) img{
+#weather img{
     margin-right: 2vh;
 }
 
-.status-bar__column:last-child{
-    justify-content: flex-end;
+.status-bar__column:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.status-bar__column:last-child div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .input-form {
