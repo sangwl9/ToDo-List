@@ -203,10 +203,12 @@ h1 {
 } 
 
 ul {
+    background-color: rgb(255,255,255, 0.2);
+    border-radius: 10px;
     overflow-y: auto;
     position: fixed;
     top: 55vh;
-    height: 35vh;
+    max-height: 35vh;
 }
 
 ul::-webkit-scrollbar {
