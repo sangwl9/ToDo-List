@@ -1,3 +1,4 @@
+// Hidden todo list elements, init login input, and change html title
 function onSignOut(){
     localStorage.removeItem(USERNAME_KEY);
 
@@ -14,4 +15,5 @@ function onSignOut(){
     document.title = LOGIN_TITLE;
 }
 
+// Add event listener to sign out
 signOut.addEventListener("click", onSignOut);

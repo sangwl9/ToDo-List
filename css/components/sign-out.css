@@ -1,0 +1,9 @@
+.sign-out {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 3vh;
+    font-weight: bold;
+    padding-right: 5vh;
+    padding-bottom: 3vh;
+}

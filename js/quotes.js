@@ -1,3 +1,4 @@
+// Quotes Array
 const quotes = [
     {
         quotes: "The greatest day in your life and mine is when we take total responsibility for our attitudes. That's the day we truly grow up.",
@@ -45,7 +46,9 @@ const quotes = [
     },
 ];
 
+// Get random number to choice a quote
 const todayQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
+// Add selected quote to html
 quote.innerText = `"${todayQuote.quotes}"`;
 author.innerText = `- ${todayQuote.author} -`;
