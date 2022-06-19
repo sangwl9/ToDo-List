@@ -205,14 +205,16 @@ h1 {
 ul {
     background-color: rgb(255,255,255, 0.2);
     border-radius: 10px;
-    overflow-y: auto;
+    overflow: auto;
     position: fixed;
     top: 55vh;
+    max-width: 70vh;
     max-height: 35vh;
 }
 
 ul::-webkit-scrollbar {
     width: 1vh;
+    height: 1vh;
 }
 
 ul::-webkit-scrollbar-thumb,
@@ -222,7 +224,6 @@ ul::-webkit-scrollbar-track {
 
 ul::-webkit-scrollbar-thumb {
     background-color: grey;
-    background-clip: padding-box;
 }
 
 ul::-webkit-scrollbar-track {
