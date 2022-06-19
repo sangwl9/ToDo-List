@@ -17,6 +17,8 @@ const toDoList = document.getElementById("todo-list");
 const TODOS_KEY = "todos";
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
+const WELCOME_TITLE = "To Do List - Welcome";
+const LOGIN_TITLE = "To Do List - Login";
 
 const API_KEY = "5d82b93e04a4c84fffae6184fd61f567";
 

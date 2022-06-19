@@ -9,6 +9,7 @@ function onLoginSubmit(event) {
 
 function paintGreetings(username) {
     greeting.innerText = `Hello ${username}`;
+    document.title = WELCOME_TITLE;
     greeting.classList.remove(HIDDEN_CLASSNAME);
     toDoForm.classList.remove(HIDDEN_CLASSNAME);
     quoteDiv.classList.remove(HIDDEN_CLASSNAME);

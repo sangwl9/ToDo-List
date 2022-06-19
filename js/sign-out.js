@@ -10,6 +10,8 @@ function onSignOut(){
     signOut.classList.add(HIDDEN_CLASSNAME);
     greeting.classList.add(HIDDEN_CLASSNAME);
     toDoList.classList.add(HIDDEN_CLASSNAME);
+
+    document.title = LOGIN_TITLE;
 }
 
 signOut.addEventListener("click", onSignOut);
